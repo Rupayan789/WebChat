@@ -1,0 +1,1 @@
+import {signUp} from './auth.action'
