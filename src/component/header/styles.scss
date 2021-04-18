@@ -1,0 +1,32 @@
+.nav-box{
+    background-color: #2b4f60 ;
+}
+.navigation{
+    background-color: #2b4f60;
+   
+}.right-menu{
+    display:flex;
+    justify-content: space-between;
+
+    a{
+        width:100px;
+    }
+}
+.brand{
+    margin-left:10px;
+}
+.text{
+    color:#fff;
+    margin:auto;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    padding: 8px;
+    display: block;
+
+    @media screen and (max-width:700px) {
+        margin-left: 0;
+        margin-right:auto;
+        
+    }
+}

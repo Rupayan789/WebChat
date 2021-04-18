@@ -1,0 +1,24 @@
+.btn-custom{
+    width:90%;
+    color:whitesmoke;
+    margin:auto;
+    height:50px;
+    padding:10px 5px;
+    background-color: #e84545;
+    border:0;
+    &:hover{
+        background-color: #810000;
+    }
+}
+.btn-google{
+    width:90%;
+    background-color: #28527a;
+    color:whitesmoke;
+    margin:auto;
+    height:50px;
+    padding:10px 5px;
+    border:0;
+    &:hover{
+       background-color:#150e56;
+    }
+}
