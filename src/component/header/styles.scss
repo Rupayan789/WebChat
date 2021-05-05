@@ -1,8 +1,9 @@
-.nav-box{
+.header-container{
     background-color: #2b4f60 ;
 }
 .navigation{
     background-color: #2b4f60;
+    margin-top:auto;
    
 }.right-menu{
     display:flex;
@@ -14,6 +15,7 @@
 }
 .brand{
     margin-left:10px;
+    letter-spacing: 1px;
 }
 .text{
     color:#fff;
@@ -23,6 +25,9 @@
     box-sizing: border-box;
     padding: 8px;
     display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 
     @media screen and (max-width:700px) {
         margin-left: 0;

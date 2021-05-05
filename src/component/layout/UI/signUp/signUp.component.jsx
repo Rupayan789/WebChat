@@ -39,25 +39,25 @@ const Register = (props) => {
             <FormInput
             type="text"
             name="firstName"
-            label="firstName"
+            label="First Name"
             handleChange={(e)=>setFirstName(e.target.value)}
             value={firstName}/>
             <FormInput
             type="text"
             name="lastName"
-            label="lastName"
+            label="Last Name"
             handleChange={(e)=>setLastName(e.target.value)}
             value={lastName}/>
             <FormInput
             type="text"
             name="email"
-            label="email"
+            label="Email"
             handleChange={(e)=>setEmail(e.target.value)}
             value={email}/>
             <FormInput
             type="password"
             name="password"
-            label="password"
+            label="Password"
             handleChange={(e)=>setPassword(e.target.value)}
             value={password}/>
         </div>
